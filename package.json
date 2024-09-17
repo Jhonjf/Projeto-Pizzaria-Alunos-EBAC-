@@ -5,5 +5,8 @@
     "imagemin-mozjpeg": "^10.0.0",
     "imagemin-pngquant": "^10.0.0",
     "imagemin-svgo": "^11.0.1"
+  },
+  "scripts": {
+    "minify-images": "node minify-images.js"
   }
 }
