@@ -1,6 +1,6 @@
 nav {
     padding: 12px;
-    background-color: #333;
+    background-color: #be3636;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -9,6 +9,12 @@ nav {
 nav h1 {
     color: #fff;
     font-size: 24px;
+}
+
+nav p {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -27,4 +33,8 @@ nav li {
 nav a {
     color: #fff;
     text-decoration: none;
+}
+
+nav a i {
+    margin-right: 5px;
 }

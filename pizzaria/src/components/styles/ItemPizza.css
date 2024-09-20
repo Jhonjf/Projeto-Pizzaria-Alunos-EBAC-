@@ -1,0 +1,68 @@
+.item-pizza {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid #FF4500; /* Borda avermelhada */
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Espaçamento inferior entre as pizzas */
+}
+
+.imagem-pizza {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.sabor-pizza {
+    font-size: 1.5rem;
+    color: #FF4500; /* Cor inspirada em pizza */
+    margin: 10px 0;
+}
+
+.preco-pizza {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.controle-quantidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px; /* Espaçamento entre os botões e input */
+}
+
+.controle-quantidade button {
+    background-color: #FF4500; /* Botões avermelhados */
+    color: white;
+    border: none;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.quantidade-pizza {
+    text-align: center;
+    width: 40px;
+}
+
+.adc-carrinho {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF4500; /* Botão "Adicionar ao Carrinho" avermelhado */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+}
+
+.adc-carrinho:hover {
+    background-color: #e13e00; /* Efeito hover no botão */
+}
