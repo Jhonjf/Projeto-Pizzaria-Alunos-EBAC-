@@ -25,7 +25,7 @@ const Catalogo = () => {
 
     return (
         <div>
-            <h2 className='h2'>As Pizzas Mais Vendidas!</h2>
+            <h2 className='slogan'>As Pizzas Mais Vendidas!</h2>
             <div className="catalogo">
                 {pizzas.map((pizza, index) => (
                     <ItemPizza 
