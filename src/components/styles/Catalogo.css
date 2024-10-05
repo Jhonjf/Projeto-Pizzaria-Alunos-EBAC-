@@ -1,0 +1,107 @@
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Máximo 5 pizzas por linha */
+    gap: 20px; /* Espaçamento entre as pizzas */
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: #d35400; 
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    padding: 10px 10px;
+}
+.slogan {
+        text-align: center;
+        color: #fff; 
+        font-size: 50px;
+        margin-bottom: 20px;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        padding: 10px 10px;
+}
+
+.item-pizza {
+    border: 2px solid #FF4500; 
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1 1 calc(20% - 20px);
+    max-width: (20% - 20px);
+    box-sizing: border-box;
+    background-color: #fff5e1; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease;
+}
+
+.item-pizza:hover {
+    transform: scale(1.05);
+}
+
+.imagem-pizza {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.sabor-pizza {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #d35400; 
+}
+
+.preco-pizza {
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.controle-quantidade {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.quantidade-btn {
+    background-color: #FF4500; 
+    color: white;
+    border: none;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantidade-btn:hover {
+    background-color: #e13e00;
+}
+
+input[type="number"] {
+    width: 50px;
+    text-align: center;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.adc-carrinho {
+    background-color: #FF4500;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.adc-carrinho:hover {
+    background-color: #e13e00;
+}
